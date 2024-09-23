@@ -1,5 +1,3 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there, I'm Sam and I'm currently studying Computing Science at the University of Glasgow. During my time here I have been able to greatly increase my knowledge of both how computers operate as well as how to create higher quality software. Some topics that we have covered include: Networks, Operating Systems, Algorithms & Datastructures, Web Application Development, Design Patterns, etc.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of University I try to spend my time productively, and such have taken up interesting hobbies such as Photography, Cycling, Reading, Cooking, Learning Japanese, etc.
