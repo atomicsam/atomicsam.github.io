@@ -2,16 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Sam
 middle_name:
 last_name: Saju
 email: samsaju04@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A site powered by Jekyll and alfolio which will used to showcase the portfolio's that I have been working on.
-  As well as to detail what I've been working on through blogs
+  A site powered by Jekyll and alfolio which will used to showcase personal projects I've been working on. The site will
+  also serve as a blog to inform others of my other hobbies and to further explain my design choices behind my projects.
 footer_text: >
-  Sam Saju - 2024
 keywords: jekyll, jekyll-theme, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
