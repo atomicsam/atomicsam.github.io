@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: BSci Computing Science Student at Glasgow University
 
 profile:
   align: right
