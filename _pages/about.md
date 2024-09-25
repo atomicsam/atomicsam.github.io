@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: BSci Computing Science Student at Glasgow University
+subtitle: BSci Computing Science Student at Glasgow University<hr>
 
 profile:
   align: right
   image: 20240830_1651_02.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>BSCi Computing Science Student at the University of Glasgow</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
