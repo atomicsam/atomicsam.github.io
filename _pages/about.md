@@ -6,7 +6,7 @@ subtitle: BSci Computing Science Student at Glasgow University
 
 profile:
   align: right
-  image: 20240830_1651_01.jpg
+  image: 20240830_1651_02.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>BSCi Computing Science Student at the University of Glasgow</p>
