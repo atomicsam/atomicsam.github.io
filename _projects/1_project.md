@@ -1,81 +1,47 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Kindle Revenant Project
+description: A Qt-based project aimed at suceeding Kindle Mate
+img: assets/img/connected.PNG
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<h2>Introduction</h2>
+The Kindle provides a useful feature that records words looked up, along with related information such as word stems and usage context, storing this data in a SQLite database. Many users have leveraged this to create flashcards for vocabulary building. Especially for Anki, a spaced repetition software.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Previously, Kindle Mate was a widely-used tool for this purpose, but it is no longer maintained, and the website has been shut down. Therefore, I decided to create an open-source program that aims to replicate and eventually surpass the functionality of Kindle Mate. This tool will also serve as a resource for others pursuing similar goals.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Currently, Kindle Revenant includes the following features:
+<ul>
+    <li>Creating, maintaining, and displaying a local database that stores Kindle lookup data</li>
+    <li>Automatically detecting the Kindle database file location</li>
+    <li>Scraping word definitions from online sources</li>
+    <li>Exporting words and definitions to a tab-indented .txt file for easy import into Anki</li>
+</ul>
+
+<h2>Project Experience</h2>
+While I initially anticipated significant challenges due to the variety of new technologies involved, the development process proved more manageable but frustrating at times. All the technologies I worked with were fairly intuitive to use which made it straightforward when it came to implementing most of the functionality. Most technologies were intuitive to implement; however, working with Qt, particularly Qt for Python, was more complex due to its niche nature. The PyQt documentation became an invaluable resource, guiding me through many of the difficulties. Through this project, I have gained valuable experience in:
+<ul>
+    <li>Adapting to new technologies</li>
+    <li>Enhancing my debugging skills</li>
+    <li>Effectively utilizing technical documentation</li>
+    <li>Setting up a CI/CD pipeline for automated testing and packaging</li>
+    <li>Interacting with APIs</li>
+    <li>Writing unit tests</li>
+</ul>
+
+Although Kindle Revenant has not yet achieved full feature parity with Kindle Mate, I have successfully implemented the majority of the core functionalities I initially set out to develop.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mft-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/connected.PNG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The Kindle Revenant UI
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
 {% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
 {% endraw %}
