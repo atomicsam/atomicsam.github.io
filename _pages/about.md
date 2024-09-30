@@ -19,4 +19,4 @@ Hi there, I'm Sam and I'm currently studying Computing Science at the University
 
 During my time here I have been able to greatly increase my knowledge of both how computers operate as well as how to create higher quality software. Some topics that we have covered include: Networks, Operating Systems, Algorithms & Datastructures, Web Application Development, Design Patterns, etc.
 
-Outside of University I try to spend my time productively, and such have taken up interesting hobbies such as Photography, Cycling, Reading, Cooking, Learning Japanese and a few more.
+Outside of University I try to spend my time productively, and such have taken up interesting hobbies such as photography, cycling, reading, playing guitar, learning Japanese.
