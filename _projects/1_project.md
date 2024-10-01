@@ -13,6 +13,15 @@ The Kindle provides a useful feature that records words looked up, along with re
 
 Previously, Kindle Mate was a widely-used tool for this purpose, but it is no longer maintained, and the website has been shut down. Therefore, I decided to create an open-source program that aims to replicate and eventually surpass the functionality of Kindle Mate. This tool will also serve as a resource for others pursuing similar goals.
 
+<div class="row">
+    <div class="col-sm mt-3 mft-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/connected.PNG" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The Kindle Revenant UI
+</div>
+
 Currently, Kindle Revenant includes the following features:
 <ul>
     <li>Creating, maintaining, and displaying a local database that stores Kindle lookup data</li>
@@ -32,16 +41,10 @@ While I initially anticipated significant challenges due to the variety of new t
     <li>Writing unit tests</li>
 </ul>
 
+<h2>Conclusion</h2>
 Although Kindle Revenant has not yet achieved full feature parity with Kindle Mate, I have successfully implemented the majority of the core functionalities I initially set out to develop.
 
-<div class="row">
-    <div class="col-sm mt-3 mft-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/connected.PNG" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The Kindle Revenant UI
-</div>
+You are welcome to try it yourself. The binaries for Windows are automatically built and uploaded as artifacts via GitHub Actions. You can access them <a href="https://github.com/atomicsam/Kindle-Revevant-New/actions/workflows/pyinstaller-github-action.yml">here</a>. Your suggestions, bug reports, or any advice would be highly appreciated.
 
 {% raw %}
 {% endraw %}
