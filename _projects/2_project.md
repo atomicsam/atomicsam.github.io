@@ -52,4 +52,3 @@ At the outset, we envisioned a wide array of features for the auction site. Howe
 While the final product may not have fully met all our original goals, the project provided invaluable learning opportunities. I was able to further develop my communication, time management, and leadership skills—skills that will undoubtedly serve me well in my future career.
 
 If you would like to explore our website please click <a href="http://devansh16.pythonanywhere.com/">here<a>.
-{% endraw %}

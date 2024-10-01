@@ -45,6 +45,3 @@ While I initially anticipated significant challenges due to the variety of new t
 Although Kindle Revenant has not yet achieved full feature parity with Kindle Mate, I have successfully implemented the majority of the core functionalities I initially set out to develop.
 
 You are welcome to try it yourself. The binaries for Windows are automatically built and uploaded as artifacts via GitHub Actions. You can access them <a href="https://github.com/atomicsam/Kindle-Revevant-New/actions/workflows/pyinstaller-github-action.yml">here</a>. Your suggestions, bug reports, or any advice would be highly appreciated.
-
-{% raw %}
-{% endraw %}
